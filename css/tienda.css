@@ -1,0 +1,28 @@
+*{
+    border: 1px solid black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header i{
+    font-size: 30px;
+   
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+main aside{
+    width: 30%;
+   
+}
+
