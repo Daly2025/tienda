@@ -31,15 +31,107 @@ aside ul{
 }
 aside ul li{
     margin-top: 10px;
+    background-color: #9e9ea7;
+    font-display: flex;
 }
-aside ul li i{
+aside ul li i {
     margin-right: 10px;
+    font-size: 24px; /* Aumenta el tamaño de los iconos */
 }
+
+
 .contacto{
     display: flex;
     justify-content: space-between;
     
 }
+
+h3{
+    margin-top: 20px;
+    font-size: 150%;
+    color: #363638;
+}
+
+thead{
+    background-color: #9f9dfa;
+}
+
+thead th{
+    padding: 10px;
+    text-align: left;
+
+}
+
+tbody tr{
+    background-color: #faf4f4;
+}
+
+/* Estilo general del aside */
+aside {
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo claro para el aside */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para la lista */
+aside ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada item de la lista */
+aside ul li {
+    margin-bottom: 15px; /* Espacio entre los elementos de la lista */
+}
+
+/* Estilo para los enlaces dentro de los li */
+aside ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px; /* Espaciado dentro del botón */
+    background-color: #7e7cee; /* Fondo azul-violeta */
+    color: white; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto cuando pasas el ratón sobre el enlace */
+aside ul li a:hover {
+    background-color: #4a5bdf; /* Cambiar color al pasar el ratón */
+    transform: translateY(-3px); /* Efecto de elevación */
+}
+
+/* Estilo para los iconos dentro de los enlaces */
+aside ul li a i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    font-size: 24px; /* Tamaño más grande de los iconos */
+}
+
+div {
+    background-color: #cbcaf8; /* Fondo lila para el div */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+div h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    color: #333; /* Color de texto oscuro para el <h1> */
+}
+
+
+
+
+
+
+
 
 
 

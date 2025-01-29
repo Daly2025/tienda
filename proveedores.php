@@ -6,7 +6,7 @@ $result = $conexion->query($sql);
 ?>
 <section>
     <div class="listado">
-        <h1>Proveedores</h1>
+        <h1>PROVEEDORES</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -32,7 +32,7 @@ $result = $conexion->query($sql);
             </tbody>
         </table>
         <hr>
-        <h3>Nuevo Proveedor</h3>
+        <h3>NUEVO PROVEEDOR</h3>
         <form action="nuevo_proveedor.php" method="post">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>

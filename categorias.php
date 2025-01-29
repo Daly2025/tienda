@@ -17,7 +17,7 @@ $result = $conexion->query($sql);
 <body>
 <div class="contacto">
     <div>
-        <h3>Nueva categoría</h3>
+        <h3>NUEVA CATEGORIA</h3>
         <form action="nueva_categoria.php" method="post">
             <input type="hidden" name="idcategoria" value="<?php echo isset($_GET['id']) ? htmlspecialchars($_GET['id']) : ''; ?>">
             <label for="nombre_categoria">Nombre de categoría</label>
@@ -29,7 +29,7 @@ $result = $conexion->query($sql);
         </form>
     </div>
 
-    <h3>Categorías existentes</h3>
+    
     <?php if ($result->rowCount() > 0): ?>
         <table>
             <thead>

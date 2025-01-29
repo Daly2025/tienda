@@ -23,6 +23,8 @@ include("conexiondb.php");
 </head>
 
 <body>
+
+
     <div class="container">
         <header>
             <i class="fa-solid fa-store"></i>
@@ -31,11 +33,11 @@ include("conexiondb.php");
         <main>
             <aside>
                 <ul>
-                    <li><a href="tienda"><i class="fa-solid fa-store"></i>Inicio</a></li>
-                    <li><a href="proveedores"><i class="fa-solid fa-boxes-packing"></i>Proveedores</a></li>
-                    <li><a href="clientes"><i class="fa-solid fa-user"></i>Clientes</a></li>
-                    <li><a href="categorias"><i class="fa-solid fa-list"></i>Categorias</a></li>
-                    <li><a href="productos"><i class="fa-brands fa-product-hunt"></i>Productos</a></li>
-                    <li><a href="ventas"><i class="fa-brands fa-sellsy"></i>Ventas</a></li>
+                    <li><a href="tienda"><i class="fa-solid fa-store"></i>INICIO</a></li>
+                    <li><a href="proveedores"><i class="fa-solid fa-boxes-packing"></i>PROVEEDORES</a></li>
+                    <li><a href="clientes"><i class="fa-solid fa-user"></i>CLIENTES</a></li>
+                    <li><a href="categorias"><i class="fa-solid fa-list"></i>CATEGORIAS</a></li>
+                    <li><a href="productos"><i class="fa-brands fa-product-hunt"></i>PRODUCTOS</a></li>
+                    <li><a href="ventas"><i class="fa-brands fa-sellsy"></i>VENTAS</a></li>
                 </ul>
             </aside>
