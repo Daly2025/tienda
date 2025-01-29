@@ -16,32 +16,19 @@ $result = $stm->execute();
 ?>
 <section>
     <?php
-    $row = $stm->fetch(PDO::FETCH_ASSOC);
-    echo "<p>" . $row["nombre"] . " " . $row["web"] . "</p>";
-    if ($row["iddireccion"] != null) {
-        echo "<p>" . $row["calle"] . " " . $row["numero"] . "</p>";
+    $direccions=[];
+    $telefonos=[];
+    $row=$stm->fetch(PDO::FETCH_ASSOC);
+    if($row) {
+        echo "<div class='proveedor'>
+        <h1>Proveedor</h1>
+        <h4>{$row['nombre']}</h4>
+        <p>Web: <a href='{$row['web']}'>{$row['web']}</a></p>
+        </div>";
     }
-    ;
-    if ($row["idtelefono"] != null) {
-        echo "<p>" . $row["telefono"] . "</p>";
-    }
-    ;
-    $iddireccion_anterior = $row["iddireccion"];
-    $idtelefono_anterior = $row["idtelefono"];
-    while ($row = $stm->fetch(PDO::FETCH_ASSOC)) {
-        if ($row["iddireccion"] != null & $row["iddireccion"]!=$iddireccion_anterior) {
-            echo "<p>" . $row["calle"] . " " . $row["numero"] . "</p>";
-        }
-        ;
-        if ($row["idtelefono"] != null & $row["idtelefono"]!=$idtelefono_anterior) {
-            echo "<p>" . $row["telefono"] . "</p>";
-        }
-        ;
-        $iddireccion_anterior = $row["iddireccion"];
-        $idtelefono_anterior = $row["idtelefono"];
-    }
-
     ?>
+
+
 </section>
 <?php
 include("partials/footer.php");
